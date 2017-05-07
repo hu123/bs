@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/pages/templates">
+	<!-- 排除 -->
+	<excludes>
+		<pattern>/action/global/anonymous*</pattern>
+		<pattern>/action/global/ajax*</pattern>
+		<pattern>/action/global/uploadImg*</pattern>
+		<pattern>/action/ffile/uploadFile*</pattern>
+		<pattern>/action/product/uploadFile*</pattern>
+		<pattern>/action/team/uploadFile*</pattern>
+		<pattern>/error/*</pattern>
+		<pattern>/kindeditor/plugins/link/link.html*</pattern>
+		<pattern>/kindeditor/plugins/image/image.html*</pattern>
+	</excludes>
+	<!-- 模板页 -->
+	<decorator name="manager" page="manager.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
