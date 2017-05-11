@@ -34,12 +34,12 @@
 			 <li><a href="action/global/anonymous_event">足迹</a></li>
 			 <li><a href="javascript:void(0);" class="moreLink">产品</a></li>
 			<div class="downmenu">
-				<a href="http://bbs.zjut.com" target="_blank">论坛</a>
-				<a href="http://www.zjut.com" target="_blank">资讯</a>
-				<a href="http://u.zjut.com" target="_blank">家园</a>
-				<a href="http://down.zjut.com" target="_blank">下载</a>
-				<a href="http://shop.zjut.com" target="_blank">商铺</a>
-				<a href="http://go.zjut.com" target="_blank">导航</a>
+				<a href="http://www.baidu.com" target="_blank">论坛</a>
+				<a href="http://www.baidu.com" target="_blank">资讯</a>
+				<a href="http://www.baidu.com" target="_blank">家园</a>
+				<a href="http://www.baidu.com" target="_blank">下载</a>
+				<a href="http://www.baidu.com" target="_blank">商铺</a>
+				<a href="http://www.baidu.com" target="_blank">导航</a>
 			</div>
 			 </ul>
 		</div>
