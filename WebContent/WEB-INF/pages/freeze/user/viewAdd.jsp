@@ -29,7 +29,7 @@
 <c:set var="academyList" value="${requestScope.academyList }"></c:set>
 <c:set var="departmentList" value="${requestScope.departmentList }"></c:set>
 <c:set var="jobList" value="${requestScope.jobList }"></c:set>
-<c:set var="locationList" value="屏峰,朝晖,之江" />
+<c:set var="locationList" value="反馈信息" />
 <c:set var="islockList" value="0,1" />
 
 <div class="crumb">
@@ -108,16 +108,7 @@
 			<label for="location" class="common-label">所在校区</label>
 			<select id="location" name="location" class="location">
 				<option value="-1">==== 请选择所在校区  ====</option>
-				<c:forEach var="location" items="${locationList }">
-					<c:choose>
-						<c:when test="${location==model.location }">
-							<option value="${location }" selected="selected">${location }</option>
-						</c:when>
-						<c:otherwise>
-							<option value="${location }">${location }</option>
-						</c:otherwise>
-					</c:choose>
-				</c:forEach>
+				<option value="文华学院">文华学院</option>
 			</select>
 		</td>
 	</tr>

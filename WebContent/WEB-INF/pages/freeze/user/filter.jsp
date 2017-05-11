@@ -39,7 +39,7 @@
 <c:set var="academyList" value="${requestScope.academyList }"></c:set>
 <c:set var="departmentList" value="${requestScope.departmentList }"></c:set>
 <c:set var="jobList" value="${requestScope.jobList }"></c:set>
-<c:set var="locationList" value="屏峰,朝晖,之江" />
+<c:set var="locationList" value="文华" />
 <c:set var="islockList" value="0,1" />
 <c:set var="currentAcademyName" ></c:set>
 <c:set var="currentDepartmentName" ></c:set>

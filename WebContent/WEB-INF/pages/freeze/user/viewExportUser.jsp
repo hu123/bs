@@ -29,7 +29,7 @@
 <c:set var="academyList" value="${requestScope.academyList }"></c:set>
 <c:set var="departmentList" value="${requestScope.departmentList }"></c:set>
 <c:set var="jobList" value="${requestScope.jobList}"></c:set>
-<c:set var="locationList" value="屏峰,朝晖,之江" />
+<c:set var="locationList" value="反馈信息" />
 <c:set var="islockList" value="0,1" />
 
 <div class="crumb">
