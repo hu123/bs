@@ -15,23 +15,24 @@
 <c:set var="username" value="${fn:split(loginUser,'&')[2] }" ></c:set>
 <c:set var="uid" value="${fn:split(loginUser,'&')[1] }" ></c:set>
 <c:set var="userID" value="${fn:split(loginUser,'&')[0] }" ></c:set>
-
-	<div id="header" style="margin-bottom:2px;">
-		<div class="logo">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div id="header" style="margin-bottom:2px;" class="container-fluid">
+		<div class="logo" class="navbar-header">
 			<h1>
 				<a href="index.jsp"><img src="common/images/logo.png" alt="首页" /></a>
 			</h1>
 		</div>
-		<div class="toplink">
+		<div class="toplink" id="navbar" class="navbar-collapse collapse">
+		<ul class="nav navbar-nav navbar-right">
 			<c:if test="${not empty loginUser }">
-				[${username}, <a href="action/global/anonymous_logout">退出</a>]
-				<a href="action/global/manager" >管理后台</a>
-				<a href="javascript:void(0)" class="switch-skin" >切换到宽屏</a>
+				<li><a href="javascript:void(0)" >[${username},]</a></li> <li><a href="action/global/anonymous_logout">退出</a></li>
+				 <li><a href="action/global/manager" >管理后台</a></li>
+				 <li><a href="javascript:void(0)" class="switch-skin" >切换到宽屏</a></li>
 				|
 			</c:if>
-			<a href="action/global/anonymous_index">登录</a>
-			<a href="action/global/anonymous_event">足迹</a>
-			<a href="javascript:void(0);" class="moreLink">产品</a>
+			 <li><a href="action/global/anonymous_index">登录</a></li>
+			 <li><a href="action/global/anonymous_event">足迹</a></li>
+			 <li><a href="javascript:void(0);" class="moreLink">产品</a></li>
 			<div class="downmenu">
 				<a href="http://bbs.zjut.com" target="_blank">论坛</a>
 				<a href="http://www.zjut.com" target="_blank">资讯</a>
@@ -40,9 +41,12 @@
 				<a href="http://shop.zjut.com" target="_blank">商铺</a>
 				<a href="http://go.zjut.com" target="_blank">导航</a>
 			</div>
+			 </ul>
 		</div>
 		<div class="clear"></div>
 	</div>
+	 </nav>
+	
 	<script type="text/javascript">
 		$(function(){
 			$('.moreLink').toggle(function(){

@@ -34,6 +34,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <script charset="UTF-8" type="text/javascript" src="kindeditor/kindeditor.js"></script>
 <link rel="stylesheet" type="text/css" href="common/css/common.css">
 <link rel="stylesheet" type="text/css" href="common/css/jqModal.css">
+<link href="common/css/bootstrap.css" rel="stylesheet" type="text/css" >
 </head>
 <body>
 <c:set var="rptList" value="${sessionScope.userPermission }"></c:set>

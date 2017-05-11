@@ -29,6 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <script language="javascript" type="text/javascript" src="common/js/jquery.cookie.js"></script>
 <script language="javascript" type="text/javascript" src="common/js/common.js"></script>
 <link rel="stylesheet" type="text/css" href="common/css/common.css">
+
 </head>
 <body>
 <c:set var="top6newsList" value="${requestScope.dataList }"></c:set>
