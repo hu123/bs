@@ -25,6 +25,6 @@
 <title> 管理后台-首页 </title>
 </head>
 <body>
-登录成功 -后台首页 hehe 
+登录成功 -后台首页 
 </body>
 </html>
